@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Robot Controller</string>
+    <string name="title_activity_main">Robot Controller</string>
+    
+    <string name="btn_UP">FOWARD</string>
+    <string name="btn_DOWN">BACK</string>
+    <string name="btn_LEFT">LEFT</string>
+    <string name="btn_RIGHT">RIGHT</string>
+    <string name="btn_BRAKE">BRAKE</string>
+    <string name="btn_ACCEL">ACCEL</string>
+    
+    <string name="arm_up">ARM UP</string>
+    <string name="arm_down">ARM DOWN</string>
+    <string name="arm_left">ARM LEFT</string>
+    <string name="arm_right">ARM RIGHT</string>
+    <string name="arm_grasp">ARM GRASP</string>
+    
+    <string name="Record">Voice Command</string>
+    <string name="Voice">Control</string>
+    
+    <string name="LogoDesc">Logo!</string>
+    <string name="Title">Robot Controller</string>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#888888</color>
+    
+</resources>

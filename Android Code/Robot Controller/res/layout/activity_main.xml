@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black" >
+
+    <TextView
+        android:id="@+id/txtArduino"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:text="@string/Record" />
+    
+    <!-- Layout for motor control -->
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/btnUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/btn_UP"
+            android:src="@drawable/normal"
+            android:width="100dp" />
+    </LinearLayout>
+   
+
+	<!--  
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/btnLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/left"
+            android:contentDescription="@string/btn_LEFT"
+            android:width="100dp" />
+
+        <ImageView
+            android:id="@+id/VoiceControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/voice"
+            android:contentDescription="@string/Voice"
+            android:width="100dp" />
+
+        <ImageView
+            android:id="@+id/btnRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right"
+            android:contentDescription="@string/btn_RIGHT"
+            android:width="100dp" />
+    </LinearLayout>
+    -->
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+        
+        <!--  
+        <ImageView
+            android:id="@+id/btnAccel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/faster_button"
+			android:contentDescription="@string/btn_ACCEL"
+			android:layout_marginRight="50dp"
+            android:width="100dp" />
+        -->
+        
+         <ImageView
+            android:id="@+id/VoiceControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/voice"
+            android:contentDescription="@string/Voice"
+            android:width="100dp" />
+
+        <!--  
+        <ImageView
+            android:id="@+id/btnDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/down"
+			android:contentDescription="@string/btn_DOWN"
+            android:width="100dp" />
+        -->
+        
+        <ImageView
+            android:id="@+id/btnBrake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/brake_button"
+			android:contentDescription="@string/btn_BRAKE"
+			android:layout_marginLeft="100dp"
+            android:width="100dp" />
+    </LinearLayout>
+    
+    
+    <!-- Layout for arm control -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center" >
+        
+        <ImageView
+            android:id="@+id/armUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arm_up"
+			android:contentDescription="@string/arm_up"
+			android:layout_marginRight="40dp"
+            android:width="100dp" />
+        
+        <ImageView
+            android:id="@+id/armLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arm_left"
+			android:contentDescription="@string/arm_left"
+            android:width="100dp" />
+        
+        <ImageView
+            android:id="@+id/armGrasp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arm_grasp"
+			android:contentDescription="@string/arm_grasp"
+			android:layout_marginLeft="40dp"
+            android:width="100dp" />        
+	</LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+        
+        <ImageView
+            android:id="@+id/armDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arm_down"
+			android:contentDescription="@string/arm_down"
+			android:layout_marginRight="40dp"
+            android:width="100dp" />
+        
+        <ImageView
+            android:id="@+id/armRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arm_right"
+			android:contentDescription="@string/arm_right"
+            android:width="100dp" />
+        
+	</LinearLayout>
+    
+
+</LinearLayout>
